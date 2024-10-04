@@ -71,5 +71,7 @@ function respostaSelecionadas(opcaoSelecionada){
 }
 function mostraResultado(){
     caixaPergunta.textContent = "Daqui a 10 anos vamos virar robôs";
+    textoResultado.textContent = respostas;
+    caixaAlternativa.textContent = "";
 }
 mostraPergunta();
